@@ -1,9 +1,12 @@
 using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class PlayerA : MonoBehaviour
 {
+    public int MaxHealth = 3;
+    public Text Health;
     public Animator animator;
     public Rigidbody2D rb;
     public float jumpHeight = 5f;
@@ -14,12 +17,21 @@ public class PlayerA : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        rb = this.GetComponent<Rigidbody2D>();
+        animator = this.GetComponent<Animator>();
         
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        if(MaxHealth <= 0){
+            Die();
+        }
+
+        Health.text = MaxHealth.ToString();
+
         movement = Input.GetAxis("Horizontal"); 
 
         if(movement < 0f && facingRight){
@@ -68,5 +80,16 @@ public class PlayerA : MonoBehaviour
             isGround = true;
             animator.SetBool("Jump", false);
         }
+    }
+
+    public void TakeDamage(int damage){
+        if(MaxHealth <= 0){
+            return;
+        }
+        MaxHealth -= damage;
+    }
+
+    void Die(){
+        Debug.Log("Player Died");
     }
 }
