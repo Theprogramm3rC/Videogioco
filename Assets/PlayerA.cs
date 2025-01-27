@@ -14,6 +14,10 @@ public class PlayerA : MonoBehaviour
     private float movement;
     public float moveSpeed = 5f;
     private bool facingRight = true;
+
+    public Transform attackPoint;
+    public float attackRadius = 1f;
+    public LayerMask attackLayer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -80,6 +84,22 @@ public class PlayerA : MonoBehaviour
             isGround = true;
             animator.SetBool("Jump", false);
         }
+    }
+
+
+    public void Attack(){
+        Collider2D collInfo = Physics2D.OverlapCircle(attackPoint.position, attackRadius, attackLayer);
+        if(collInfo){
+
+        }
+    }
+
+    void OnDrawGizmosSelected(){
+        if(attackPoint == null){
+            return;
+        }
+        Gizmos.DrawWireSphere(attackPoint.position, attackRadius);
+
     }
 
     public void TakeDamage(int damage){
