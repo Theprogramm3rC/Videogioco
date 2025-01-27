@@ -1,4 +1,5 @@
 using System.Security.Cryptography;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
@@ -90,6 +91,9 @@ public class PlayerA : MonoBehaviour
     public void Attack(){
         Collider2D collInfo = Physics2D.OverlapCircle(attackPoint.position, attackRadius, attackLayer);
         if(collInfo){
+            if(collInfo.gameObject.GetComponent<Android>() != null){
+                collInfo.gameObject.GetComponent<Android>().TakeDamage(1);
+            }
 
         }
     }
@@ -110,6 +114,8 @@ public class PlayerA : MonoBehaviour
     }
 
     void Die(){
-        Debug.Log("Player Died");
+        FindAnyObjectByType<GameManager>().isGameActive = false;
+        Destroy(this.gameObject);
+
     }
 }

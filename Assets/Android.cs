@@ -5,6 +5,8 @@ using Vector3 = UnityEngine.Vector3;
 
 public class Android : MonoBehaviour
 {
+
+    public int maxHealth = 5;
     
     public bool facingleft = true;
     public float moveSpeed = 2f;
@@ -36,6 +38,15 @@ public class Android : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if(FindAnyObjectByType<GameManager>().isGameActive == false){
+            return;
+        }
+
+        if(maxHealth <= 0){
+            Die();
+
+        }
         if(Vector2.Distance(transform.position, player.position) <= attackRange ){
             inRange = true;
         }
@@ -100,6 +111,15 @@ public class Android : MonoBehaviour
         }
     }
 
+    public void TakeDamage(int damage){
+        if(maxHealth <= 0){
+            return;
+        }
+        maxHealth -= damage;
+    }
+
+
+
 
 
       
@@ -119,6 +139,12 @@ public class Android : MonoBehaviour
         if(AttackPoint == null) return;
         Gizmos.color= Color.red;
         Gizmos.DrawWireSphere(AttackPoint.position, attackRadius);
+    }
+
+    void Die(){
+        Destroy(this.gameObject);
+
+
     }
     
 }
