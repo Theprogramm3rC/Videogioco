@@ -316,7 +316,7 @@ TilemapRenderer:
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
-  m_Mode: 0
+  m_Mode: 1
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
 --- !u!1839735485 &433753148
@@ -6230,7 +6230,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1935736831
-  m_SortingLayer: 1
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -7387,6 +7387,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: BackGround
       objectReference: {fileID: 0}
+    - target: {fileID: 1928915395739672421, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1928915395739672421, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1928915395739672421, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3250015178536551770, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 89.46312
@@ -7425,6 +7437,62 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3250015178536551770, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173858808892412180, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173858808892412180, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173858808892412180, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538505540813377287, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538505540813377287, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538505540813377287, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5636665508059820516, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5636665508059820516, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5636665508059820516, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004156562569677327, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004156562569677327, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8467481314744146345, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8467481314744146345, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8467481314744146345, guid: 8564595db30e1c549a1ab81c20447a0d, type: 3}
+      propertyPath: m_SortingLayerID
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
