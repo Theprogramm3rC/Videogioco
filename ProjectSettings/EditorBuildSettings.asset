@@ -12,6 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Personaggi2.0.unity
     guid: 6ad33c69de915044abeccd47a54f38c1
   - enabled: 1
+    path: Assets/Scenes/DescriptionF.unity
+    guid: 01225729784636448828b6694f2f1c1b
+  - enabled: 1
+    path: Assets/Scenes/DescriptionA.unity
+    guid: 689149186aa085c43ad6b055e25b9298
+  - enabled: 1
+    path: Assets/Scenes/DescriptionL.unity
+    guid: 60d8fc77e49fd414888bee0f4c41c07f
+  - enabled: 1
+    path: Assets/Scenes/DescriptionG.unity
+    guid: 4e46fd0cf86b6f24593fd51b731ee3e7
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects:
