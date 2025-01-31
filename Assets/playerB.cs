@@ -53,7 +53,7 @@ public class PlayerB : MonoBehaviour
         if(Input.GetKey(KeyCode.Space) && isGround){
             Jump();
             isGround = false;
-            animator.SetBool("Jump", true);
+            animator.SetBool("Jump", false);
         }
 
         if(Mathf.Abs(movement) > .1f){
