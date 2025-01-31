@@ -988,7 +988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.0237, y: 0.3947}
+  m_AnchoredPosition: {x: -9, y: 1.1}
   m_SizeDelta: {x: 6.25, y: 3.4375}
   m_Pivot: {x: 0.5, y: -0}
 --- !u!1 &1800270542
@@ -1317,9 +1317,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Un esperto di tecnologia e programmazione. And \xE8 tranquillo e riflessivo,
-    ma\r\nquando si tratta di hackerare sistemi complessi o riprogrammare robot,
-    \xE8 imbattibile.\r\nHa una vasta conoscenza di reti e intelligenza artificiale."
+  m_text: "Un Avventuriero che ha deciso \ndi aiutare a trovare le parti del robot.
+    And \xE8 tranquillo e riflessivo, ma\r\nquando si tratta di combattere non ha
+    paura di nessuno,\xE8 imbattibile.\r\nHa una vasta conoscenza dei territori circostanti."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
