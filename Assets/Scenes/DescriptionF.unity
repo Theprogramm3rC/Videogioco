@@ -272,7 +272,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Un'abile ingegnere meccanica con una passione per i robot. \xC8 intelligente,
     determinata e conosce ogni singolo bullone e vite che compongono i robot. Fran
-    ha una personalit\xE0 energica e si fida molto della sua intuizione.\r\n"
+    ha una personalit\xE0 energica e un passato misterioso.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -691,8 +691,8 @@ Transform:
   m_GameObject: {fileID: 907223081}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.00084264117, w: 0.99999964}
-  m_LocalPosition: {x: -7.0529, y: 2.5104, z: 0}
-  m_LocalScale: {x: 3.1170046, y: 2.852684, z: 1}
+  m_LocalPosition: {x: -7.4695, y: 2.361, z: 0}
+  m_LocalScale: {x: 1.204487, y: 1.0234357, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -778,8 +778,8 @@ Transform:
   m_GameObject: {fileID: 1263799779}
   serializedVersion: 2
   m_LocalRotation: {x: 0.008174354, y: 0.9997429, z: 0.0042428416, w: -0.020720733}
-  m_LocalPosition: {x: 10.14, y: -3, z: -0.04}
-  m_LocalScale: {x: 3.4018073, y: 3.1500008, z: 1}
+  m_LocalPosition: {x: 9.31, y: -2.35, z: -0.02}
+  m_LocalScale: {x: 1.5106827, y: 1.4269909, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

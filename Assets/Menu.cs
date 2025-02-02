@@ -33,5 +33,9 @@ public class Menu : MonoBehaviour
 
     public void Inizia(){
               SceneManager.LoadScene(6);          
+    }
+
+    public void Scene2(){
+           SceneManager.LoadScene(7);
     }  
 }
