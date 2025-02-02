@@ -1,11 +1,15 @@
+using System;
 using System.Security.Cryptography;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class PlayerA : MonoBehaviour
 {
+
+  
     public int MaxHealth = 3;
     public Text Health;
     public Animator animator;
@@ -19,9 +23,24 @@ public class PlayerA : MonoBehaviour
     public Transform attackPoint;
     public float attackRadius = 1f;
     public LayerMask attackLayer;
+
+
+    [SerializeField] private GameObject explosionPrefab;
+
+    [SerializeField] private Transform feetPoint;
+
+    [SerializeField] private Image[] hearts;
+    
+    
+    
+    
+
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         rb = this.GetComponent<Rigidbody2D>();
         animator = this.GetComponent<Animator>();
         
@@ -35,7 +54,17 @@ public class PlayerA : MonoBehaviour
             Die();
         }
 
-        Health.text = MaxHealth.ToString();
+        for (int i=0; i<hearts .Length; i++){
+            if(i <MaxHealth){
+                hearts[i].enabled = true;
+            }
+            else{
+                hearts[i].enabled = false;
+            }
+
+        }
+
+        
 
         movement = Input.GetAxis("Horizontal"); 
 
@@ -88,6 +117,9 @@ public class PlayerA : MonoBehaviour
     }
 
 
+    
+
+
     public void Attack(){
         Collider2D collInfo = Physics2D.OverlapCircle(attackPoint.position, attackRadius, attackLayer);
         if(collInfo){
@@ -106,6 +138,7 @@ public class PlayerA : MonoBehaviour
 
     }
 
+
     public void TakeDamage(int damage){
         if(MaxHealth <= 0){
             return;
@@ -115,7 +148,14 @@ public class PlayerA : MonoBehaviour
 
     void Die(){
         FindAnyObjectByType<GameManager>().isGameActive = false;
+
+        Instantiate(explosionPrefab, feetPoint.position, Quaternion.identity);
         Destroy(this.gameObject);
 
     }
+
+    
+
+    
 }
+

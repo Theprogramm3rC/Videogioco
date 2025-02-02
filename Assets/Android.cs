@@ -3,6 +3,8 @@ using UnityEngine;
 using Vector2 = UnityEngine.Vector2;
 using Vector3 = UnityEngine.Vector3;
 
+using Quaternion = UnityEngine.Quaternion;
+
 public class Android : MonoBehaviour
 {
 
@@ -23,6 +25,10 @@ public class Android : MonoBehaviour
     public Transform AttackPoint;
     public float attackRadius = 1f;
     public LayerMask attackLayer;
+
+    [SerializeField] private GameObject explosionPrefab;
+
+    [SerializeField] private Transform feetPoint;
 
 
     
@@ -142,6 +148,8 @@ public class Android : MonoBehaviour
     }
 
     void Die(){
+
+        Instantiate(explosionPrefab, feetPoint.position, Quaternion.identity);
         Destroy(this.gameObject);
 
 
