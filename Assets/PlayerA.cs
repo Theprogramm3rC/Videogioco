@@ -25,6 +25,10 @@ public class PlayerA : MonoBehaviour
     public LayerMask attackLayer;
     
     
+    
+    
+    
+    
 
 
     [SerializeField] private GameObject explosionPrefab;
@@ -98,6 +102,13 @@ public class PlayerA : MonoBehaviour
             animator.SetTrigger("Attack");
 
         }
+
+       
+
+
+        
+
+        
     }
 
     private void FixedUpdate()
