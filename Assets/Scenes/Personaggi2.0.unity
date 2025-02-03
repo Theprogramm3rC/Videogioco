@@ -874,7 +874,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 182657957}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2061688393}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Scene1G
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &182657957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1647,13 +1659,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2061688386}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2061688393}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Scene1L
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1801,8 +1813,8 @@ Transform:
   m_GameObject: {fileID: 1173606193}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.86, y: -2.4, z: 0}
-  m_LocalScale: {x: 4.242656, y: 4.067818, z: 1}
+  m_LocalPosition: {x: 5.8944, y: -2.1722, z: 0}
+  m_LocalScale: {x: 0.9979918, y: 0.7742318, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3259,7 +3271,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2061688393}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: Inizia
+        m_MethodName: Scena1A
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

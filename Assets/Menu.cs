@@ -31,11 +31,19 @@ public class Menu : MonoBehaviour
            SceneManager.LoadScene(5);
     }
 
-    public void Inizia(){
+    public void Scena1A(){
               SceneManager.LoadScene(6);          
     }
 
     public void Scene1F(){
            SceneManager.LoadScene(7);
-    }  
+    }
+
+    public void Scene1L(){
+           SceneManager.LoadScene(8);
+    }
+
+    public void Scene1G(){
+           SceneManager.LoadScene(9);
+    }        
 }
