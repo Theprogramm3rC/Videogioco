@@ -23,6 +23,8 @@ public class PlayerA : MonoBehaviour
     public Transform attackPoint;
     public float attackRadius = 1f;
     public LayerMask attackLayer;
+    
+    
 
 
     [SerializeField] private GameObject explosionPrefab;
@@ -121,13 +123,15 @@ public class PlayerA : MonoBehaviour
 
 
     public void Attack(){
-        Collider2D collInfo = Physics2D.OverlapCircle(attackPoint.position, attackRadius, attackLayer);
-        if(collInfo){
-            if(collInfo.gameObject.GetComponent<Android>() != null){
-                collInfo.gameObject.GetComponent<Android>().TakeDamage(1);
-            }
+       Collider2D collInfo = Physics2D.OverlapCircle(attackPoint.position, attackRadius, attackLayer);
+          if(collInfo){
+              if(collInfo.gameObject.GetComponent<Android>() != null){
+                  collInfo.gameObject.GetComponent<Android>().TakeDamage(1);
+                  
+              }
+          }
 
-        }
+        
     }
 
     void OnDrawGizmosSelected(){

@@ -8,6 +8,8 @@ using Quaternion = UnityEngine.Quaternion;
 public class Android : MonoBehaviour
 {
 
+    public Animator animatori;
+
     public int maxHealth = 5;
     
     public bool facingleft = true;
@@ -122,6 +124,7 @@ public class Android : MonoBehaviour
             return;
         }
         maxHealth -= damage;
+        animatori.SetTrigger("Hurt");
     }
 
 
