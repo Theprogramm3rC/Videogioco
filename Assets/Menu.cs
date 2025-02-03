@@ -35,7 +35,7 @@ public class Menu : MonoBehaviour
               SceneManager.LoadScene(6);          
     }
 
-    public void Scene2(){
+    public void Scene1F(){
            SceneManager.LoadScene(7);
     }  
 }
