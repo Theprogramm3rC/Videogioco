@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerKnockback : MonoBehaviour
 {
+    public Animator animatori;
     public float knockbackForce = 10f; // Forza del knockback
     public float knockbackDuration = 0.2f; // Durata del knockback
 
@@ -26,6 +27,9 @@ public class PlayerKnockback : MonoBehaviour
 
     void EndKnockback()
     {
+        animatori.SetTrigger("Knockback");
         isKnockedback = false;
+        
+
     }
 }
