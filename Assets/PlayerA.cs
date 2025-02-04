@@ -129,6 +129,24 @@ public class PlayerA : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D other){
+
+        if(other.gameObject.tag == "Heart"){
+            if(MaxHealth >= 4){
+                return;
+            }
+            else{
+                MaxHealth +=1;
+                other.gameObject.transform.GetChild(0).GetComponent<Animator>().SetTrigger("HeartFadeout");
+                Destroy(other.gameObject, 1f);
+                
+        
+            }
+                
+        }
+    }
+           
+
 
     
 
