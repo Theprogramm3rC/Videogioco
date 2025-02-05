@@ -7912,8 +7912,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec3f08a05d14ef747a84b9d04d23d5c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockbackForce: 40
-  knockbackDuration: 1
+  animatori: {fileID: 1850688449}
+  knockbackForce: 20
+  knockbackDuration: 0.5
+--- !u!95 &1850688449 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1418343131619511041, guid: 3ebfac9cd0f9fb248b2087bf071a10c5, type: 3}
+  m_PrefabInstance: {fileID: 4515722499621439512}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1854222372
 GameObject:
   m_ObjectHideFlags: 0
