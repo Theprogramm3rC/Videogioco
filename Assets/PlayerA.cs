@@ -185,10 +185,7 @@ public class PlayerA : MonoBehaviour
         Instantiate(explosionPrefab, feetPoint.position, Quaternion.identity);
         Destroy(this.gameObject);
 
-    }
-
-    
-
+    }  
     
 }
 
