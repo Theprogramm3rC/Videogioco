@@ -16,11 +16,11 @@ GameObject:
   - component: {fileID: 5045445141417083487}
   - component: {fileID: 8506301177710841804}
   - component: {fileID: 4591087290358111235}
-  - component: {fileID: 8618817841976237945}
   - component: {fileID: 2844482078135343753}
+  - component: {fileID: 8618817841976237945}
   - component: {fileID: 845468909769491047}
   m_Layer: 7
-  m_Name: Gio
+  m_Name: Luc
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,7 +35,7 @@ Transform:
   m_GameObject: {fileID: 1068901556410253277}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.21, y: -0.54, z: 0}
+  m_LocalPosition: {x: -0.42, y: -0.46, z: 0}
   m_LocalScale: {x: 0.8655, y: 0.7591, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -255,6 +255,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fillBar: {fileID: 0}
   health: 100
+--- !u!114 &2844482078135343753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068901556410253277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ea666c9219d6e4eab4ce7142077531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &8618817841976237945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,18 +282,6 @@ MonoBehaviour:
   animatori: {fileID: 7567119983370291782}
   knockbackForce: 20
   knockbackDuration: 0.5
---- !u!114 &2844482078135343753
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1068901556410253277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28ea666c9219d6e4eab4ce7142077531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &845468909769491047
 MonoBehaviour:
   m_ObjectHideFlags: 0

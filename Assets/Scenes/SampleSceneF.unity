@@ -13557,6 +13557,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1854222374}
     - target: {fileID: 2401445771680531213, guid: 41b8556cbd7b8dd47aee5b69e78fc73d, type: 3}
+      propertyPath: attackPoint
+      value: 
+      objectReference: {fileID: 4978940079280804494}
+    - target: {fileID: 2401445771680531213, guid: 41b8556cbd7b8dd47aee5b69e78fc73d, type: 3}
       propertyPath: 'hearts.Array.data[0]'
       value: 
       objectReference: {fileID: 1797021788}
@@ -13625,6 +13629,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41b8556cbd7b8dd47aee5b69e78fc73d, type: 3}
+--- !u!4 &4978940079280804494 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3352377511859625391, guid: 41b8556cbd7b8dd47aee5b69e78fc73d, type: 3}
+  m_PrefabInstance: {fileID: 4978940079280804493}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6358816660270693167
 PrefabInstance:
   m_ObjectHideFlags: 0
