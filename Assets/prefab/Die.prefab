@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7764552210866539548}
   - component: {fileID: 1902091642876152203}
   - component: {fileID: 2099984277687768903}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Die
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 3015300050168515457}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.89, y: -13.62, z: -0.13417841}
+  m_LocalPosition: {x: -1.61, y: -3.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -74,9 +74,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -557021901
+  m_SortingLayer: 3
+  m_SortingOrder: 3
   m_Sprite: {fileID: 2649847697073447219, guid: 811b297cd4d90f047a9175d23994cef2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -98,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 3015300050168515457}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5fd3d86ff5f99834b9f338b4db79849f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 863baea8220c4eb4eb84cea092da79e3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
