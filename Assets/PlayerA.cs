@@ -144,6 +144,11 @@ public class PlayerA : MonoBehaviour
             }
                 
         }
+
+         if(other.gameObject.tag == "VictoryPoint"){
+            FindAnyObjectByType<SceneManagement>().LoadLevel();
+
+        }
     }
            
 
@@ -178,6 +183,9 @@ public class PlayerA : MonoBehaviour
         }
         MaxHealth -= damage;
     }
+
+    
+   
 
     void Die(){
         FindAnyObjectByType<GameManager>().isGameActive = false;
