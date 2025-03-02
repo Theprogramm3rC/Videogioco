@@ -36,14 +36,14 @@ public class Menu : MonoBehaviour
     }
 
     public void Scene1F(){
-           SceneManager.LoadScene(7);
-    }
-
-    public void Scene1L(){
            SceneManager.LoadScene(8);
     }
 
-    public void Scene1G(){
+    public void Scene1L(){
            SceneManager.LoadScene(9);
+    }
+
+    public void Scene1G(){
+           SceneManager.LoadScene(10);
     }        
 }
