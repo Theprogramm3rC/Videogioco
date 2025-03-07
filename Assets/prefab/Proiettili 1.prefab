@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1648632178332171310}
   - component: {fileID: 8445947436958542497}
   - component: {fileID: 2091425243149764271}
+  - component: {fileID: 1099547944570252873}
   m_Layer: 0
   m_Name: Proiettili 1
   m_TagString: Untagged
@@ -72,7 +73,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.33, y: 0.2}
+    oldSize: {x: 0.825, y: 0.5}
     newSize: {x: 0.7, y: 0.3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -150,7 +151,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -162,3 +163,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1099547944570252873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8826032139710069139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b3d877146145440b740217cf005063, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  damage: 1
