@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3fdfadb70b3989e41ba314119fb20395
+guid: 2f4c3e39faae5e74ca3dc7f3c648f42d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6636585613346608120
-    second: arm_projectile_0
+      213: -7285443544368590760
+    second: Base Mech_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arm_projectile_0
+      name: Base Mech_0
       rect:
         serializedVersion: 2
-        x: 59
-        y: 55
-        width: 37
-        height: 16
+        x: 5
+        y: 0
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f31ef40473e91c50800000000000000
-      internalID: 6636585613346608120
+      spriteID: 8505fb242b7e4ea90800000000000000
+      internalID: -7285443544368590760
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      arm_projectile_0: 6636585613346608120
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

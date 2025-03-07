@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: 57f5b51b6952a3548a7a2be3b00cbcfa
+guid: ee2d4564a7a2ed848b69ec52fb5bfb74
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 95044405116505353
-    second: arm_projectile_glowing_0
+      213: 4963410374264836942
+    second: Walk animation Sheet_0
   - first:
-      213: 5053551332890923903
-    second: arm_projectile_glowing_1
+      213: -4360103972143390205
+    second: Walk animation Sheet_1
   - first:
-      213: 959987844630726459
-    second: arm_projectile_glowing_2
+      213: -4113566304407008562
+    second: Walk animation Sheet_2
   - first:
-      213: 8066067344937695706
-    second: arm_projectile_glowing_3
+      213: -4043755032508153293
+    second: Walk animation Sheet_3
   - first:
-      213: 8081469474457304709
-    second: arm_projectile_glowing_4
+      213: 3782949260164420939
+    second: Walk animation Sheet_4
   - first:
-      213: -4212147560741854503
-    second: arm_projectile_glowing_5
+      213: 8492241377823045681
+    second: Walk animation Sheet_5
+  - first:
+      213: 5104639407628801853
+    second: Walk animation Sheet_6
+  - first:
+      213: 2773742306141714848
+    second: Walk animation Sheet_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 5
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arm_projectile_glowing_0
+      name: Walk animation Sheet_0
       rect:
         serializedVersion: 2
-        x: 59
-        y: 255
-        width: 37
-        height: 16
+        x: 3
+        y: 0
+        width: 18
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 90d8bd4026aa15100800000000000000
-      internalID: 95044405116505353
+      spriteID: e435b88207391e440800000000000000
+      internalID: 4963410374264836942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arm_projectile_glowing_1
+      name: Walk animation Sheet_1
       rect:
         serializedVersion: 2
-        x: 159
-        y: 255
-        width: 37
-        height: 16
+        x: 35
+        y: 0
+        width: 17
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f735a239922d12640800000000000000
-      internalID: 5053551332890923903
+      spriteID: 302af94c98ccd73c0800000000000000
+      internalID: -4360103972143390205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arm_projectile_glowing_2
+      name: Walk animation Sheet_2
       rect:
         serializedVersion: 2
-        x: 259
-        y: 255
-        width: 37
-        height: 16
+        x: 65
+        y: 0
+        width: 22
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3748e3cbdf825d00800000000000000
-      internalID: 959987844630726459
+      spriteID: ecacdc1ad3da9e6c0800000000000000
+      internalID: -4113566304407008562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arm_projectile_glowing_3
+      name: Walk animation Sheet_3
       rect:
         serializedVersion: 2
-        x: 59
-        y: 155
-        width: 37
-        height: 16
+        x: 96
+        y: 0
+        width: 22
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad9b36da38d60ff60800000000000000
-      internalID: 8066067344937695706
+      spriteID: 33247a00932b1e7c0800000000000000
+      internalID: -4043755032508153293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arm_projectile_glowing_4
+      name: Walk animation Sheet_4
       rect:
         serializedVersion: 2
-        x: 159
-        y: 155
-        width: 37
-        height: 16
+        x: 129
+        y: 0
+        width: 19
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58eb0386ba5272070800000000000000
-      internalID: 8081469474457304709
+      spriteID: b455d672f4cbf7430800000000000000
+      internalID: 3782949260164420939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arm_projectile_glowing_5
+      name: Walk animation Sheet_5
       rect:
         serializedVersion: 2
-        x: 259
-        y: 155
-        width: 37
-        height: 16
+        x: 163
+        y: 0
+        width: 17
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,8 +259,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d224744c127b85c0800000000000000
-      internalID: -4212147560741854503
+      spriteID: 13834001a808ad570800000000000000
+      internalID: 8492241377823045681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk animation Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37dc26ee7257d640800000000000000
+      internalID: 5104639407628801853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk animation Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9bc087eef4e7620800000000000000
+      internalID: 2773742306141714848
       vertices: []
       indices: 
       edges: []
@@ -273,12 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      arm_projectile_glowing_0: 95044405116505353
-      arm_projectile_glowing_1: 5053551332890923903
-      arm_projectile_glowing_2: 959987844630726459
-      arm_projectile_glowing_3: 8066067344937695706
-      arm_projectile_glowing_4: 8081469474457304709
-      arm_projectile_glowing_5: -4212147560741854503
+      Walk animation Sheet_0: 4963410374264836942
+      Walk animation Sheet_1: -4360103972143390205
+      Walk animation Sheet_2: -4113566304407008562
+      Walk animation Sheet_3: -4043755032508153293
+      Walk animation Sheet_4: 3782949260164420939
+      Walk animation Sheet_5: 8492241377823045681
+      Walk animation Sheet_6: 5104639407628801853
+      Walk animation Sheet_7: 2773742306141714848
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

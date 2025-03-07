@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: 57f5b51b6952a3548a7a2be3b00cbcfa
+guid: fbe94f23e40082246a3e774098ec88bd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 95044405116505353
-    second: arm_projectile_glowing_0
+      213: -122307324270810052
+    second: Dash Animation sheet_0
   - first:
-      213: 5053551332890923903
-    second: arm_projectile_glowing_1
+      213: -3966145486398860560
+    second: Dash Animation sheet_1
   - first:
-      213: 959987844630726459
-    second: arm_projectile_glowing_2
+      213: -5666457047197184967
+    second: Dash Animation sheet_2
   - first:
-      213: 8066067344937695706
-    second: arm_projectile_glowing_3
+      213: -9154512675925410820
+    second: Dash Animation sheet_3
   - first:
-      213: 8081469474457304709
-    second: arm_projectile_glowing_4
+      213: -7944978821616781153
+    second: Dash Animation sheet_4
   - first:
-      213: -4212147560741854503
-    second: arm_projectile_glowing_5
+      213: 6955683423996455835
+    second: Dash Animation sheet_5
+  - first:
+      213: 6896240353921779762
+    second: Dash Animation sheet_6
+  - first:
+      213: -7784742301255158696
+    second: Dash Animation sheet_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 5
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arm_projectile_glowing_0
+      name: Dash Animation sheet_0
       rect:
         serializedVersion: 2
-        x: 59
-        y: 255
-        width: 37
-        height: 16
+        x: 8
+        y: 0
+        width: 19
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +149,108 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 90d8bd4026aa15100800000000000000
-      internalID: 95044405116505353
+      spriteID: c3ce867f22a7d4ef0800000000000000
+      internalID: -122307324270810052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arm_projectile_glowing_1
+      name: Dash Animation sheet_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f25da391bb65f8c0800000000000000
+      internalID: -3966145486398860560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Animation sheet_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c8dc67653bc51b0800000000000000
+      internalID: -5666457047197184967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Animation sheet_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbb7a35933a4f080800000000000000
+      internalID: -9154512675925410820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Animation sheet_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98b7852bd3cdb190800000000000000
+      internalID: -7944978821616781153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Animation sheet_5
       rect:
         serializedVersion: 2
         x: 159
-        y: 255
-        width: 37
-        height: 16
+        y: 0
+        width: 34
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +259,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f735a239922d12640800000000000000
-      internalID: 5053551332890923903
+      spriteID: b9ba169a83d878060800000000000000
+      internalID: 6955683423996455835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arm_projectile_glowing_2
+      name: Dash Animation sheet_6
       rect:
         serializedVersion: 2
-        x: 259
-        y: 255
-        width: 37
-        height: 16
+        x: 191
+        y: 0
+        width: 34
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +281,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3748e3cbdf825d00800000000000000
-      internalID: 959987844630726459
+      spriteID: 238c835601e54bf50800000000000000
+      internalID: 6896240353921779762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arm_projectile_glowing_3
+      name: Dash Animation sheet_7
       rect:
         serializedVersion: 2
-        x: 59
-        y: 155
-        width: 37
-        height: 16
+        x: 223
+        y: 0
+        width: 33
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,52 +303,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad9b36da38d60ff60800000000000000
-      internalID: 8066067344937695706
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arm_projectile_glowing_4
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 155
-        width: 37
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 58eb0386ba5272070800000000000000
-      internalID: 8081469474457304709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arm_projectile_glowing_5
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 155
-        width: 37
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9d224744c127b85c0800000000000000
-      internalID: -4212147560741854503
+      spriteID: 854bab15f1a07f390800000000000000
+      internalID: -7784742301255158696
       vertices: []
       indices: 
       edges: []
@@ -273,12 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      arm_projectile_glowing_0: 95044405116505353
-      arm_projectile_glowing_1: 5053551332890923903
-      arm_projectile_glowing_2: 959987844630726459
-      arm_projectile_glowing_3: 8066067344937695706
-      arm_projectile_glowing_4: 8081469474457304709
-      arm_projectile_glowing_5: -4212147560741854503
+      Dash Animation sheet_0: -122307324270810052
+      Dash Animation sheet_1: -3966145486398860560
+      Dash Animation sheet_2: -5666457047197184967
+      Dash Animation sheet_3: -9154512675925410820
+      Dash Animation sheet_4: -7944978821616781153
+      Dash Animation sheet_5: 6955683423996455835
+      Dash Animation sheet_6: 6896240353921779762
+      Dash Animation sheet_7: -7784742301255158696
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
