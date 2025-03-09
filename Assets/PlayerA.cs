@@ -84,6 +84,8 @@ public class PlayerA : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            FindAnyObjectByType<audioManager>().PlayAudio();
+
             animator.SetTrigger("Attack");
         }
     }
