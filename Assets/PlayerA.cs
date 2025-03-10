@@ -84,8 +84,7 @@ public class PlayerA : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-
-            animator.SetTrigger("Attack");
+             animator.SetTrigger("Attack");
         }
     }
 
