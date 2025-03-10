@@ -6,9 +6,13 @@ public class DeathZone : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Logica per la morte del personaggio
-            Destroy(other.gameObject);
-            // Puoi aggiungere altre azioni, come ricaricare la scena o mostrare un messaggio di Game Over
-        }
-    }
+            // Logica per far perdere tutte le vite al personaggio
+            PlayerA player = other.GetComponent<PlayerA>();
+            if (player != null)
+            {
+                player.MaxHealth = 0; // Riduce le vite a zero
+                player.TakeDamage(1); // Chiama il metodo per aggiornare la salute del player e farlo morire
+            }
+        }
+    }
 }
