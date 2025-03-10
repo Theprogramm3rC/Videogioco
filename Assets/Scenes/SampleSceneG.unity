@@ -14048,6 +14048,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8260747390707880808, guid: dba4cdc71672f4e48820faeccad5dbd5, type: 3}
+      propertyPath: explosionPrefab
+      value: 
+      objectReference: {fileID: 3015300050168515457, guid: 1ce442ca11e4a1440a3ad54cea8f4341, type: 3}
+    - target: {fileID: 8260747390707880808, guid: dba4cdc71672f4e48820faeccad5dbd5, type: 3}
       propertyPath: gameOverManager
       value: 
       objectReference: {fileID: 1770143489}
