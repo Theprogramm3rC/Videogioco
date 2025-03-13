@@ -1,4 +1,5 @@
 using System;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -21,6 +22,7 @@ public class PlayerA : MonoBehaviour
     public Transform attackPoint;
     public float attackRadius = 1f;
     public LayerMask attackLayer;
+    public CoinManagment cm;
     
     [SerializeField] private GameObject explosionPrefab;
     [SerializeField] private Transform feetPoint;
@@ -157,6 +159,13 @@ public class PlayerA : MonoBehaviour
             return;
         }
         MaxHealth -= damage;
+    }
+
+    private void OntriggerEnter2D(Collider2D other){
+        if(other.gameObject.CompareTag("Coin")){
+            Destroy(other.gameObject);
+            cm.CoinCount++;
+        }
     }
 
     void Die()
