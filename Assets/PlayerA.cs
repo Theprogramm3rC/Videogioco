@@ -22,8 +22,7 @@ public class PlayerA : MonoBehaviour
     public Transform attackPoint;
     public float attackRadius = 1f;
     public LayerMask attackLayer;
-    public CoinManagment cm;
-    
+   
     [SerializeField] private GameObject explosionPrefab;
     [SerializeField] private Transform feetPoint;
     [SerializeField] private Image[] hearts;
@@ -161,12 +160,7 @@ public class PlayerA : MonoBehaviour
         MaxHealth -= damage;
     }
 
-    private void OntriggerEnter2D(Collider2D other){
-        if(other.gameObject.CompareTag("Coin")){
-            Destroy(other.gameObject);
-            cm.CoinCount++;
-        }
-    }
+    
 
     void Die()
     {
@@ -179,4 +173,6 @@ public class PlayerA : MonoBehaviour
 
         Destroy(this.gameObject);
     }
+
+
 }
