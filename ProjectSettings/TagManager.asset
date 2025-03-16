@@ -9,6 +9,7 @@ TagManager:
   - Heart
   - Projectile
   - VictoryPoint
+  - Coin
   layers:
   - Default
   - TransparentFX
