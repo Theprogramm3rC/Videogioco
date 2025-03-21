@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 1648632178332171310}
   - component: {fileID: 8445947436958542497}
   - component: {fileID: 2091425243149764271}
-  - component: {fileID: 1099547944570252873}
-  m_Layer: 0
+  - component: {fileID: -1942823618146206323}
+  m_Layer: 8
   m_Name: Proiettili 2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +73,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.875, y: 0.5}
+    oldSize: {x: 1.05, y: 0.475}
     newSize: {x: 0.7, y: 0.3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -125,7 +125,7 @@ SpriteRenderer:
   m_SortingLayerID: -557021901
   m_SortingLayer: 3
   m_SortingOrder: 3
-  m_Sprite: {fileID: 2118197556715995833, guid: 12be29eb236b5f947932e19b0b129788, type: 3}
+  m_Sprite: {fileID: 2301240640538241927, guid: 12be29eb236b5f947932e19b0b129788, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -163,7 +163,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1099547944570252873
+--- !u!114 &-1942823618146206323
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,8 +172,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 8826032139710069139}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8b3d877146145440b740217cf005063, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a72332e9be60074f8d808ba8c7e663e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  damage: 1
+  lifeTime: 3
