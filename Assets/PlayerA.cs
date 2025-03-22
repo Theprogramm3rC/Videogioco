@@ -106,6 +106,8 @@ public class PlayerA : MonoBehaviour
             isGround = true;
             animator.SetBool("Jump", false);
         }
+
+    
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -161,6 +163,8 @@ public class PlayerA : MonoBehaviour
     }
 
     
+
+
 
     void Die()
     {

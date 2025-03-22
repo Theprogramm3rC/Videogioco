@@ -32,6 +32,8 @@ public class Android : MonoBehaviour
 
     [SerializeField] private Transform feetPoint;
 
+    public PlayerA playerA;
+
 
     
     
@@ -127,12 +129,21 @@ public class Android : MonoBehaviour
         animatori.SetTrigger("Hurt");
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag =="Player"){
+            playerA.TakeDamage(1);
+        }
+        
+    }
 
 
 
 
-      
-    
+
+
+
+
 
     private void OnDrawGizmosSelected(){
         if(checkPoint == null){
@@ -149,6 +160,7 @@ public class Android : MonoBehaviour
         Gizmos.color= Color.red;
         Gizmos.DrawWireSphere(AttackPoint.position, attackRadius);
     }
+
 
     void Die(){
 

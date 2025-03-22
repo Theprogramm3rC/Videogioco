@@ -362,6 +362,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1850688431}
     - target: {fileID: 2251618180072442904, guid: e81bb4e9e5fb1bf4bad7c49e1bdda23b, type: 3}
+      propertyPath: playerA
+      value: 
+      objectReference: {fileID: 1850688452}
+    - target: {fileID: 2251618180072442904, guid: e81bb4e9e5fb1bf4bad7c49e1bdda23b, type: 3}
       propertyPath: animatori
       value: 
       objectReference: {fileID: 1917284754}
@@ -12302,6 +12306,7 @@ MonoBehaviour:
     m_Bits: 128
   explosionPrefab: {fileID: 6594969348882481036, guid: 28aea559fb0d9924d85906e90768e602, type: 3}
   feetPoint: {fileID: 1724840040}
+  playerA: {fileID: 1850688452}
 --- !u!95 &1514661590
 Animator:
   serializedVersion: 7
@@ -12992,6 +12997,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cm: {fileID: 2109692113}
+--- !u!114 &1850688452 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1217557182819780041, guid: 3ebfac9cd0f9fb248b2087bf071a10c5, type: 3}
+  m_PrefabInstance: {fileID: 4515722499621439512}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952215616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f3a6e43a27e3754c9fb6a3d3fbaacc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1854222372
 GameObject:
   m_ObjectHideFlags: 0
@@ -13489,6 +13505,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1850688431}
     - target: {fileID: 2251618180072442904, guid: e81bb4e9e5fb1bf4bad7c49e1bdda23b, type: 3}
+      propertyPath: playerA
+      value: 
+      objectReference: {fileID: 1850688452}
+    - target: {fileID: 2251618180072442904, guid: e81bb4e9e5fb1bf4bad7c49e1bdda23b, type: 3}
       propertyPath: animatori
       value: 
       objectReference: {fileID: 975886348}
@@ -13753,6 +13773,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1850688431}
+    - target: {fileID: 2251618180072442904, guid: e81bb4e9e5fb1bf4bad7c49e1bdda23b, type: 3}
+      propertyPath: playerA
+      value: 
+      objectReference: {fileID: 1850688452}
     - target: {fileID: 2251618180072442904, guid: e81bb4e9e5fb1bf4bad7c49e1bdda23b, type: 3}
       propertyPath: animatori
       value: 
