@@ -77,6 +77,12 @@ public class PlayerA : MonoBehaviour
             animator.SetBool("Jump", true);
         }
 
+        if(Input.GetKey(KeyCode.F) && isGround){
+            Jump();
+            isGround = false;
+            animator.SetBool("JumpBounce",true);
+        }
+
         if (Mathf.Abs(movement) > .1f)
         {
             animator.SetFloat("Run", 1f);
@@ -88,6 +94,7 @@ public class PlayerA : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            FindAnyObjectByType<AudioManager1>().PlayAudio();
             animator.SetTrigger("Attack");
         }
     }
@@ -111,6 +118,13 @@ public class PlayerA : MonoBehaviour
             isGround = true;
             animator.SetBool("Jump", false);
         }
+
+        if(collision.gameObject.tag== "Ground"){
+            isGround = true;
+            animator.SetBool("JumpBounce", false);
+        }
+
+      
 
     
     }
