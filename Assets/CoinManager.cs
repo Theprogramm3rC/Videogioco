@@ -6,6 +6,8 @@ public class CoinManager : MonoBehaviour
     public int coinCount;
     public Text coinText;
 
+    public GameObject door;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,6 +18,11 @@ public class CoinManager : MonoBehaviour
     void Update()
     {
         coinText.text = "Robot Parts: " + coinCount.ToString();
+
+        if(coinCount == 1){
+            Destroy(door);
+
+        }
         
     }
 }
