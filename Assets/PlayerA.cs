@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using Random = System.Random;
 
 public class PlayerA : MonoBehaviour
 {
@@ -26,6 +27,8 @@ public class PlayerA : MonoBehaviour
     [SerializeField] private GameObject explosionPrefab;
     [SerializeField] private Transform feetPoint;
     [SerializeField] private Image[] hearts;
+
+    
 
     public GameOverManager gameOverManager; // Aggiungi questa riga
 
@@ -85,9 +88,11 @@ public class PlayerA : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-             animator.SetTrigger("Attack");
+            animator.SetTrigger("Attack");
         }
     }
+
+    
 
     private void FixedUpdate()
     {
