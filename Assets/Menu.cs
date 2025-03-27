@@ -17,18 +17,18 @@ public class Menu : MonoBehaviour
     }
 
     public void DescriptionF(){
-           SceneManager.LoadScene(2);
+           SceneManager.LoadScene(3);
     }  
 
     public void DescriptionA(){
-           SceneManager.LoadScene(3);
+           SceneManager.LoadScene(2);
     }
     public void DescriptionL(){
-           SceneManager.LoadScene(4);
+           SceneManager.LoadScene(5);
     }
 
        public void DescriptionG(){
-           SceneManager.LoadScene(5);
+           SceneManager.LoadScene(4);
     }
 
     public void Scena1A(){
@@ -36,7 +36,7 @@ public class Menu : MonoBehaviour
     }
 
     public void Scene1F(){
-           SceneManager.LoadScene(8);
+           SceneManager.LoadScene(7);
     }
 
     public void Scene1L(){
@@ -44,6 +44,6 @@ public class Menu : MonoBehaviour
     }
 
     public void Scene1G(){
-           SceneManager.LoadScene(10);
+           SceneManager.LoadScene(8);
     }        
 }
