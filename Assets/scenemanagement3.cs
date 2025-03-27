@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneManagement3A : MonoBehaviour
+public class SceneManagement3 : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -13,7 +13,6 @@ public class SceneManagement3A : MonoBehaviour
 
     public void LoadLevel()
     {
-        SceneManager.LoadScene(8);
+        SceneManager.LoadScene(9);
     }
 }
-
