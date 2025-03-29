@@ -13,7 +13,7 @@ public class SceneManagement3L : MonoBehaviour
 
     public void LoadLevel()
     {
-        SceneManager.LoadScene(16);
+        SceneManager.LoadScene(17);
     }
 }
 
