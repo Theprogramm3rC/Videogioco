@@ -82,6 +82,7 @@ public class Android : MonoBehaviour
 
             }
             else{
+                animator.SetTrigger("Attack 1 0");
                 animator.SetBool("Attack 1", true);
 
 
