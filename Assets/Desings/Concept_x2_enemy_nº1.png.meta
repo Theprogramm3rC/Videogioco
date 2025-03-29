@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Concept_x2_enemy_n\xBA1_0": 1045898965891433611
+      "Concept_x2_enemy_n\xBA1_1": 4346924088282349065
+      "Concept_x2_enemy_n\xBA1_2": 7287401466837272084
+      "Concept_x2_enemy_n\xBA1_3": -6353919942824091901
+      "Concept_x2_enemy_n\xBA1_4": 6850272338149351869
+      "Concept_x2_enemy_n\xBA1_5": -2368511734662914457
+      "Concept_x2_enemy_n\xBA1_6": 1288269587766384332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
